@@ -167,7 +167,7 @@ export default function DelijioshoWebsite() {
                 products made with 100% durum wheat semolina.
               </p>
               <Link
-                href={`https://wa.me/+919548083871?text=Hi%2C%20I'm%20interested%20in%20buying%20Deljiosho%20${product.name}.%20Please%20share%20details.`}
+                href={`https://wa.me/+919548083871?text=Hi%2C%20I'm%20interested%20in%20buying%20Deljiosho%20Products.%20Please%20share%20details.`}
                 target="_blank"
                 className="bg-amber-500 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold text-lg transition transform hover:scale-105 shadow-lg"
               >
