@@ -166,9 +166,13 @@ export default function DelijioshoWebsite() {
                 Changing snacking one pasta at a time. Premium quality pasta
                 products made with 100% durum wheat semolina.
               </p>
-              <button className="bg-amber-500 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold text-lg transition transform hover:scale-105 shadow-lg">
+              <Link
+                href={`https://wa.me/+919548083871?text=Hi%2C%20I'm%20interested%20in%20buying%20Deljiosho%20${product.name}.%20Please%20share%20details.`}
+                target="_blank"
+                className="bg-amber-500 hover:bg-red-700 text-white px-8 py-4 rounded-full font-bold text-lg transition transform hover:scale-105 shadow-lg"
+              >
                 Shop Products <ChevronRight className="inline ml-2" />
-              </button>
+              </Link>
             </div>
             <div className="relative h-full w-full scale-[1.23] z-0">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-300 to-red-300 rounded-3xl transform rotate-3 scale-[1.1]"></div>
@@ -261,16 +265,15 @@ export default function DelijioshoWebsite() {
                   />
                 </div>
                 <div className="p-6 space-y-4">
-                  
                   <h3 className="text-2xl flex justify-between items-end font-bold text-gray-900">
                     {product.name}
                     <Link
-                    href={`https://wa.me/+919548083871?text=Hi%2C%20I'm%20interested%20in%20buying%20Deljiosho%20${product.name}.%20Please%20share%20details.`}
-                    target="_blank"
-                    className="text-amber-900 font-bold text-lg transition transform hover:scale-105 text-center"
-                  >
-                    Shop Now
-                  </Link>
+                      href={`https://wa.me/+919548083871?text=Hi%2C%20I'm%20interested%20in%20buying%20Deljiosho%20${product.name}.%20Please%20share%20details.`}
+                      target="_blank"
+                      className="text-amber-900 font-bold text-lg transition transform hover:scale-105 text-center"
+                    >
+                      Shop Now
+                    </Link>
                   </h3>
                   <p className="text-sm text-amber-500 font-semibold">
                     {product.subtitle}
